@@ -1,0 +1,8 @@
+{% if record_list %}
+    {% for record in record_list %}
+        <dev>{{record.pruid}}</dev>
+        {% endfor %}
+{% else %}
+    <p>Not working</p>
+
+{% endif %}
